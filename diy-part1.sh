@@ -15,9 +15,9 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 添加插件源码
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git onliner https://github.com/rufengsuixing/luci-app-onliner' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git poweroff https://github.com/esirplayground/luci-app-poweroff' >>feeds.conf.default
+git clone https://github.com/rufengsuixing/luci-app-onliner.git package/lean/luci-app-onliner
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jianping0754/luci-theme-darkmatter.git package/lean/luci-theme-darkmatter
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
