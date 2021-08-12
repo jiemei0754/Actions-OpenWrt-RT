@@ -35,7 +35,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  build:
+  编译固件:
     runs-on: ubuntu-20.04
 
     steps:
