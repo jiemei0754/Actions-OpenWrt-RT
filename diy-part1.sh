@@ -19,6 +19,6 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 git clone https://github.com/rufengsuixing/luci-app-onliner.git package/lean/luci-app-onliner
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-git clone https://github.com/jianping0754/luci-theme-darkmatter.git package/lean/luci-theme-darkmatter
+git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/lean/luci-theme-darkmatter
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
