@@ -20,6 +20,5 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git poweroff https://github.com/esirplayground/luci-app-poweroff' >>feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jianping0754/luci-theme-darkmatter.git package/lean/luci-theme-darkmatter
-git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
