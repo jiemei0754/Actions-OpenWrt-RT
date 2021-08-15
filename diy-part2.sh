@@ -25,6 +25,5 @@ sed -i "/uci commit network/i\uci set network.lan.delegate='0'" $ZZZ            
 sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collections/luci/Makefile  # 选择infinityfreedom为默认主题
 sed -i "s/OpenWrt /Standard Edition Compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ    # 增加个性名字Standard Edition
 sed -i "/uci commit system/i\uci set system.@system[0].hostname='OpenWrt-GT'" $ZZZ                 # 修改主机名称为OpenWrt-GT
-#sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/$1$PhflQnJ1$yamWfH5Mphs4hXV7UXWQ21:18725/g' $ZZZ   # 替换密码（要替换密码就不能设置密码为空）
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                                             # 设置密码为空
 sed -i 's/PATCHVER:=5.4/PATCHVER:=5.10/g' target/linux/x86/Makefile                                # x86机型,默认内核5.4，修改内核为5.10
