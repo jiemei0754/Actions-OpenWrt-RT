@@ -14,7 +14,7 @@
 ZZZ="package/lean/default-settings/files/zzz-default-settings"
 #
 sed -i "/uci commit fstab/a\uci commit network" $ZZZ
-sed -i "/uci commit network/i\uci set network.lan.ipaddr='192.168.32.40'" $ZZZ                     # IPv4 地址(openwrt后台地址)
+sed -i "/uci commit network/i\uci set network.lan.ipaddr='192.168.32.4'" $ZZZ                      # IPv4 地址(openwrt后台地址)
 sed -i "/uci commit network/i\uci set network.lan.netmask='255.255.255.0'" $ZZZ                    # IPv4 子网掩码
 sed -i "/uci commit network/i\uci set network.lan.gateway='192.168.32.2'" $ZZZ                     # IPv4 网关
 sed -i "/uci commit network/i\uci set network.lan.broadcast='192.168.32.255'" $ZZZ                 # IPv4 广播
