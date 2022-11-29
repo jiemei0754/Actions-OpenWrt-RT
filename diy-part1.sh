@@ -11,7 +11,7 @@
 #
 
 # 去除源码注释
-# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 添加插件包
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
