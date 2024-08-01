@@ -106,7 +106,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: OpenWrt-GT_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: OpenWrt-RT_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin
 
     - name: 整理固件文件夹
